@@ -1,0 +1,111 @@
+h1 {
+    color: #997300;
+}
+
+h3 {
+    color: #fff9e6;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: none;
+}
+
+li {
+  float: left;
+}
+
+li a {
+display: block;
+color: white;
+font-size: 20px;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+
+li a:hover {
+background-color: #865519;
+}
+
+body {
+  background-image: url('background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+header {
+  text-align: left;
+  padding: 14px 16px;
+}
+p {
+  background-color:#000;
+  opacity: 0.8;
+  padding: 30px 50px;
+  width: 40%;
+  text-decoration-color: red;
+}
+
+#photos {
+  text-align: left;
+  color: brown;
+}
+#videos {
+  text-align: left;
+  color: brown;
+}
+
+a {
+  color: white;
+}
+a:visited {
+  color: white;
+}
+a:hover, a:active, a:focus {
+  color: red;
+}
+
+.button {
+  background-color: #FDFDFD;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  font-size: 14px;
+}
+.button:hover {
+  background-color: #C2D7F3;
+}
+
+img {
+  width: 40%;
+  height: 40%
+}
+img {
+  opacity: 0.4;
+}
+
+img:hover {
+  opacity: 1.0;
+}
+
+@media (min-width: 500px) {
+body {
+    background-color: black;
+}
+}
+@media (max-width: 499px) {
+  body {
+      background-color: black;
+  }
+}
+@media print {
+  .screen-only {
+    display: none;
+  }
+}

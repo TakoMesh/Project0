@@ -1,0 +1,28 @@
+body {
+  font: 100% arial, sans-serif;
+  color: white;
+}
+
+div {
+  font-size: 16px;
+  font-style: italic;
+}
+div p {
+  color: white;
+}
+
+.cancelled, .today {
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.today {
+  background-color: green;
+}
+
+.cancelled {
+  background-color: red;
+}
+
+/*# sourceMappingURL=style.css.map */

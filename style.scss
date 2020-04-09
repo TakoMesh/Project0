@@ -1,0 +1,29 @@
+$font-stack:    arial, sans-serif;
+$primary-color: white;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
+div {
+      font-size: 16px;
+      p {
+          color: white;
+      }
+      font-style: italic;
+}
+%message {
+     font-family: sans-serif;
+     font-size: 18px;
+     font-weight: bold;
+ }
+
+ .today {
+   @extend %message;
+   background-color: green;
+ }
+ .cancelled {
+   @extend %message;
+   background-color: red;
+ }
+ 
